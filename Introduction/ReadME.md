@@ -1,3 +1,12 @@
 ## Neural Network Architecture
 
-<img src="NN.png">
+<img src="src/NN.png">
+
+### Feed Forward
+<img src="src/FF.png">
+
+
+### Back Propogation
+<img src="src/BP.png">
+
+
