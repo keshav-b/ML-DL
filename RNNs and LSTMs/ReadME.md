@@ -1,3 +1,3 @@
 # RNN Architecture
 
-<img src="src/RNN.png">
+<img src="src/RNN1.png">
