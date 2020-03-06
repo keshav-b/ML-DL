@@ -1,1 +1,3 @@
-RNNs and LSTMs
+# RNN Architecture
+
+<img src="src/RNN.png">
