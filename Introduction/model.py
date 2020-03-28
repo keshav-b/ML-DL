@@ -3,18 +3,16 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class Network(nn.Module):
-	def __init__(self, inputs=4, hidden1=8, hidden2=9, outputs=3):
+	def __init__(self, inputs=3, hidden1=2, outputs=1):
 		super().__init__()
 		self.fc1 = nn.Linear(inputs, hidden1)
-		self.fc2 = nn.Linear(hidden1, hidden2)
-		self.out = nn.Linear(hidden2, outputs)
+		self.out = nn.Linear(hidden1, outputs)
 
 	def forward(self, x):
 		x = self.fc1(x)
-		x = F.relu(x)
-		x = self.fc2(x)
-		x = F.relu(x)
+		x = F.tanh(x)
 		x = self.out(x)
+		x = self.softmax(x, dim=0)
 		return x
 
 model = Network()
