@@ -14,7 +14,7 @@ class Network(nn.Module):
 		x = self.fc1(x)
 		x = F.tanh(x)
 		x = self.out(x)
-		x = self.softmax(x, dim=0)
+		x = F.softmax(x, dim=0)
 		return x
 
 # INSTANTIATE PARAMETERS
