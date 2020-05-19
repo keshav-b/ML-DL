@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-# MODULE CREATION
+# MODel CREATION
 class Network(nn.Module):
 	def __init__(self, inputs=3, hidden1=2, outputs=1):
 		super().__init__()
