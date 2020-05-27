@@ -9,5 +9,5 @@
 * Sequence Networks
     * [Recurrent Neural Networks - Predicting the next word](https://github.com/keshav-b/PyTorch/blob/master/Sequence%20Models/RNN.ipynb)
     * [Long Short Term Memory- Character Level](https://github.com/keshav-b/PyTorch/blob/master/Sequence%20Models/LSTM.ipynb)
-    * [Bi-directional LSTM - Predicting the next word]()
+    * [Bi-directional LSTM - Predicting the next set of word(s)](https://github.com/keshav-b/PyTorch/blob/master/Sequence%20Models/Bi_LSTM.ipynb)
     
