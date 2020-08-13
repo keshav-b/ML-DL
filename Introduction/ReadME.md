@@ -1,5 +1,0 @@
-## Neural Network Architecture
-
-
-
-
