@@ -1,1 +1,1 @@
-This repo contains various Machine learning, Deep Learning basics and mini projects:)
+This repo contains various Machine learning, Deep Learning concepts and mini projects:)
